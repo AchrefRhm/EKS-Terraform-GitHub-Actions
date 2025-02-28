@@ -27,10 +27,10 @@ ondemand_instance_types    = ["t3a.medium"]
 spot_instance_types        = ["t3a.medium", "t3.medium", "c5a.xlarge", "m5a.large", "m5a.xlarge", "t3a.large", "t3.micro", "t3a.micro"]  
 desired_capacity_on_demand = "1"
 min_capacity_on_demand     = "1"
-max_capacity_on_demand     = "2"
+max_capacity_on_demand     = "3"
 desired_capacity_spot      = "1"
 min_capacity_spot          = "1"
-max_capacity_spot          = "4"
+max_capacity_spot          = "6"
 addons = [
   {
     name    = "vpc-cni",
